@@ -1,6 +1,4 @@
 const graphql = require('graphql');
-const mongoose = require('mongoose');
-const author = require('../models/author');
 const Author = require('../models/author');
 const Book = require('../models/book');
 const { GraphQLObjectType, GraphQLString, GraphQLSchema,
