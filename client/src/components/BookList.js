@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { useQuery, gql } from '@apollo/client';
 
 const getBooksQuery = gql`
